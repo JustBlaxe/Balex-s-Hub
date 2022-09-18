@@ -2,7 +2,7 @@ local HttpService = game:GetService('HttpService')
 local Supported = false
 local Script = nil
 
-local GameList = game:HttpGet('https://raw.githubusercontent.com/JustBlaxe/Balex-s-Hub/main/GameList')
+local GameList = game:HttpGet('https://raw.githubusercontent.com/JustBlaxe/Balex-s-Hub/main/GameList.json')
 function GetGame()
     local GameTable = HttpService:JSONDecode(GameList)
     if GameTable[tostring(game.PlaceId)] then 
