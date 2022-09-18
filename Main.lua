@@ -15,7 +15,7 @@ local Game = GetGame()
 
 if Game then
     Supported = true
-    Script = game:HttpGet('https://raw.githubusercontent.com/JustBlaxe/Balex-s-Hub/main/Scripts/' .. Game.ScriptName)
+    Script = game:HttpGet('https://github.com/JustBlaxe/Balex-s-Hub/tree/main/Scripts/' .. Game.ScriptName)
 end
 
 local DuckHub = Instance.new("ScreenGui")
